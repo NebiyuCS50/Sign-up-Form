@@ -34,8 +34,6 @@ Clone the repository: https://github.com/NebiyuCS50/Sign-up-Form.git
 
 Navigate to the project folder:cd Sign-up Form
 
-Open index.html in your browser.
-
 ## File Structure
 
 Sign-up Form/
