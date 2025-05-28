@@ -37,9 +37,9 @@ Navigate to the project folder:cd Sign-up Form
 ## File Structure
 
 Sign-up Form/
-├── index.html
-├── style.css
-└── README.md
+--> index.html
+--> style.css
+--> README.md
 
 # 📐 Customization
 
