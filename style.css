@@ -171,3 +171,20 @@ input:invalid {
   transition: all 0.3s ease-in-out;
   border-radius: 2%;
 }
+button {
+  margin-top: 15px;
+  margin-left: 50px;
+  background-color: #596d48;
+  border: none;
+  color: white;
+  border-radius: 12px;
+  width: 150px;
+  height: 35px;
+  font-family: sans-serif, "Open Sans", "Norse";
+  font-weight: 600;
+}
+button:hover {
+  background-color: #4a5b3f;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
