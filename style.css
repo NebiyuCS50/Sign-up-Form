@@ -152,26 +152,30 @@ body {
 label {
   display: flex;
   flex-direction: column;
+  margin-top: 3px;
 }
 input {
   border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 7px;
 }
 input:focus {
   outline: none;
   border: 2px solid rgba(45, 49, 166, 0.68);
   box-shadow: 1px 1px 5px rgba(45, 49, 166, 0.68);
   transition: all 0.2s ease-in-out;
-  border-radius: 2%;
+  border-radius: 7px;
 }
 
 input:invalid {
   outline: none;
-  border: 2px solid rgba(255, 1, 22, 0.678);
-  box-shadow: 1px 1px 5px rgba(255, 1, 22, 0.678);
+  border: 2px solid rgba(255, 0, 0, 0.68);
+  box-shadow: 1px 1px 5px rgba(255, 0, 0, 0.68);
   transition: all 0.3s ease-in-out;
-  border-radius: 2%;
+  border-radius: 7px;
 }
 button {
+  position: absolute;
+  bottom: 70px;
   margin-top: 15px;
   margin-left: 50px;
   background-color: #596d48;
@@ -184,7 +188,17 @@ button {
   font-weight: 600;
 }
 button:hover {
-  background-color: #4a5b3f;
+  background-color: #596d48;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+}
+p {
+  margin-top: 70px;
+  margin-left: 50px;
+  font-family: sans-serif, "Open Sans", "Norse";
+}
+a {
+  text-decoration: none;
+  color: #596d48;
+  font-weight: 600;
 }
